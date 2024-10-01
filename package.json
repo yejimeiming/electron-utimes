@@ -1,6 +1,6 @@
 {
-	"name": "utimes",
-	"version": "0.0.0",
+	"name": "electron-utimes",
+	"version": "5.2.1",
 	"description": "Native addon to change the btime, mtime, and atime of a file on Windows, macOS, and Linux.",
 	"main": "dist/main.js",
 	"types": "dist/main.d.ts",
@@ -9,14 +9,10 @@
 		"dist/**/*",
 		"cpp/**/*"
 	],
-	"homepage": "https://github.com/baileyherbert/utimes",
-	"repository": "github:baileyherbert/utimes",
-	"bugs": "https://github.com/baileyherbert/utimes/issues",
-	"author": "Bailey <hello@bailey.sh> (https://github.com/baileyherbert)",
-	"contributors": [
-		"Joran Dirk Greef (https://github.com/jorangreef)",
-		"Jule (https://github.com/Jule-)"
-	],
+	"homepage": "https://github.com/yejimeiming/electron-utimes",
+	"repository": "github:yejimeiming/electron-utimes",
+	"bugs": "https://github.com/yejimeiming/electron-utimes/issues",
+	"author": "yejimeiming (https://github.com/yejimeiming)",
 	"keywords": [
 		"access time",
 		"atime",
@@ -54,7 +50,7 @@
 	"binary": {
 		"module_name": "utimes",
 		"module_path": "./lib/binding/napi-v{napi_build_version}",
-		"host": "https://github.com/baileyherbert/utimes/releases/download/",
+		"host": "https://github.com/yejimeiming/electron-utimes/releases/download/",
 		"remote_path": "v{version}",
 		"package_name": "{module_name}-v{version}-napi-v{napi_build_version}-{platform}-{arch}.tar.gz",
 		"napi_versions": [
