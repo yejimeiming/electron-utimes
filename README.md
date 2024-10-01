@@ -1,3 +1,7 @@
+
+**The purpose of `electron-utimes` is to be compatible with the Electron project.**
+---
+
 # utimes
 
 Native addon to change the creation time (`btime`), modified time (`mtime`), and access time (`atime`) of files, directories, and symbolic links on Windows, macOS, and Linux.

@@ -59,7 +59,8 @@ tmp/
 temp/
 .history
 .ionide
+.DS_Store
 artifacts/
 lib/
 build-tmp*/
-packages/
+release/
